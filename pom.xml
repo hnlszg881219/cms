@@ -69,4 +69,24 @@
   <build>
     <finalName>cms</finalName>
   </build>
+  
+  <repositories>
+      <repository>
+          <id>nexus</id>
+          <name>Nexus</name>
+          <url>http://localhost:8081/nexus/content/groups/public/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>false</enabled></snapshots>
+      </repository>
+  </repositories>
+  
+  <pluginRepositories>
+      <pluginRepository>
+          <id>nexus</id>
+          <name>Nexus</name>
+          <url>http://localhost:8081/nexus/content/groups/public/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>false</enabled></snapshots>
+      </pluginRepository>
+  </pluginRepositories>
 </project>
