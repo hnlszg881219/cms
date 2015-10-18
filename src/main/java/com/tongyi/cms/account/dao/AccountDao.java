@@ -4,6 +4,11 @@ import com.tongyi.cms.account.AccountInfo;
 
 public interface AccountDao {
 	
+	/**
+	 * ¥¥Ω®’À∫≈
+	 * @param accountInfo
+	 * @return
+	 */
 	int createAccount(AccountInfo accountInfo);
 	
 	int updateAccount(int id,String password);
