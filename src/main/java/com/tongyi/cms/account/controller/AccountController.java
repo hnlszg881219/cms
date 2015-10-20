@@ -42,5 +42,10 @@ public class AccountController {
 		map.put("info", userName);
 		return map;
 	}
+	
+	@RequestMapping(value="/test/{name}")
+	public @ResponseBody long testMap1(@PathVariable String name){
+		return 0;
+	}
     
 }
